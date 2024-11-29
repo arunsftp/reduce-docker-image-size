@@ -1,0 +1,7 @@
+As a rule, only the necessary files need to be copied over the docker image.
+
+Docker can ignore the files present in the working directory if configured in the .dockerignore file.
+
+It also improves caching by ignoring unnecessary files and prevents unnecessary cache invalidation.
+
+This feature should be kept in mind while optimizing the docker image.
