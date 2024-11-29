@@ -1,4 +1,4 @@
-How to Reduce Docker Image Size: 6 Optimization Methods
+                        ** How to Reduce Docker Image Size: 6 Optimization Methods**
 
 If you want to reduce docker image size, you need to use the standard best practices in building a Docker Image.
 
@@ -8,7 +8,7 @@ Docker as a container engine makes it easy to take a piece of code & run it insi
 
 The whole concept of “run anywhere” images starts from a simple configuration file called Dockerfile. First, we add all the build instructions, such as the code dependencies, commands, and base image details, in Dockerfile.
 
-Need for Docker Image Optimization
+                        ** Need for Docker Image Optimization**
 Even though the Docker build process is easy, many organizations make the mistake of building bloated Docker images without optimizing the container images.
 
 In typical software development, each service will have multiple versions/releases, and each version requires more dependencies, commands, and configs. This introduces a challenge in Docker image build, as now – the same code requires more time & resources to be built before it can be shipped as a container.
