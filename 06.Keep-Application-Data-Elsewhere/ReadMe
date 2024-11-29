@@ -1,0 +1,5 @@
+Following are some of the open-source tools that will help you optimize the Docker images. You can choose a tool and make it part of your Docker Image Pipeline to ensure only optimized images get created for application deployments.
+
+Dive: It is an image explorer tool that helps you discover layers in the Docker & OCI containers images. Using Dive, you can find ways to optimize your Docker images. Check out the Dive Github repo for more details.
+SlimtoolKit: It helps you optimize your Docker images for security and size. Check out the Docker Slim Github repo for more details. You can reduce the docker image size up to 30x using Slim.
+Docker Squash: This utility helps you to reduce the image size by squashing image layers. The squash feature is also available in the Docker CLI using squash flag.
